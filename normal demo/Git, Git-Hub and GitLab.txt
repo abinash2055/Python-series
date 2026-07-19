@@ -1,0 +1,135 @@
+
+
+			TO PUSH CODE IN EXISTING REPOSITORY AT GIT HUB
+
+				1. git add .
+				2. git commit -m "Your commit message"
+				3. git push -u origin main
+				// IF BRANCH NAME IS MASTER
+				3. git push  origin master
+
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+			TO PUSH CODE IN NEW REPOSITORY AT GIT HUB
+				1. git status
+				2. git init
+				3. git add READ.md
+				4. git commit -m "Initial message"
+				5. git branch -M main
+				6. git remote add origin https://github.com/abinashnath/<repo-name>.git
+				7. git push -u origin main
+	
+-------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
+
+			TO CLONE EXISTING FOLDER FROM GIT HUB TO PC
+				1. git clone https://github.com/abinashnath/<repo-name>.git
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+			TO BUILD AND DEPLOY LIVE WEBSITE AT GITHUB PAGES USING NPM PACKAFES "REACT"
+				1. Go to package.json
+				2. type "homepage": "https://<username>.github.io/<repositary-name>"
+				3. see in script box
+				4. add 2 lines
+				    a. "predeploy": "npm run build",
+				    b. "deploy": "gh-pages -d dist",
+				5. Push data in GitHub
+				6. install package "npm install gh-pages"
+					OR
+				7. install package "npm install gh-pages --save-dev"
+				8. Open Terminal
+				   a. npm install gh-pages
+				   b. npm run deploy
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+			TO BUILD AND DEPLOY LIVE WEBSITE AT GITHUB PAGES USING REACT USING VITE
+				1. Go to vite.config.js
+				2. In export default type
+				   a. { base: "<repository-name>"
+				2. Go to package.json file and type
+				    a. "homepage": "https://<username>.github.io/<repositary-name>"
+				3. see in script box
+				4. add 2 lines
+				    a. "predeploy": "npm run build",
+				    b. "deploy": "gh-pages -d dist",
+				5. Push data in GitHub
+				6. Open Terminal
+				    a. npm install gh-pages
+				    b. npm run deploy
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+			TO BUILD AND DEPLOY LIVE WEBSITE AT GITHUB PAGES AFTER EDITING SOME CODES
+				1. Push code to github
+				2. Open Terminal and type
+				    a. npm install gh-pages
+			            b. npm run build
+				    c. npm run deploy
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+COMPLETE DETAILED PROCESS IS DESCRIBED BELOW
+	TO ADD NEW FOLDERS
+	1. run terminal in (vs code) or (main terminal app) where you had wrote codes.
+	2. type ("git init") and press enter.
+	3. In file location you see written ("U") and represented in green color.
+	4. create GitHub account.
+	5. enter create repository to create folder.
+	6. type name and press enter.
+	7. type command lines in terminal of vs code
+		-->  git init     			// it show U letter in every file page
+		-->  git add .    			// it show A letter in every file page
+		-->  git commit -m "first commit"   	// just to commit it
+	
+	8. add your email address according to your github account
+		git config --global user.email "your email address" 	// to know users information
+
+	9. add your username according to your github account
+		git config --global user.email "your username"		// to know users information
+
+	10. again type and run commit command 
+		git commit -m" first commit"
+
+	11. type next command 
+		--> git branch -M main		// to create new branch
+
+	12. type next command
+		--> git remote add origin https://github.com/abinash2055/<repo-name>.git
+
+	13. type next command
+		--> git push -u origin main		// to push the changes to save in GitHub
+
+ 	14 confirmation from GitHub and accept it i.e. login it.
+	15 authorize it .
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+	TO UPDATE UPLOADED FOLDER
+	1. type below lines
+		--> git add .
+		--> git commit -m "first commit"
+		--> git push -u origin main
+
+---------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
+
+	FINAL STEP 
+	1. go to setting.
+	2. go to pages.
+	3. go to branch option.
+	4. change empty box to main and wait for few minutes and save it.
+	5. now our file is uploaded as live.
+
+	

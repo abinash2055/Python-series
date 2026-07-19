@@ -1,0 +1,7 @@
+101, Kathmandu, North, 4, 50000, Available
+102, Pokhara, East, 5, 60000, Not Available
+103, Lalitpur, South, 10, 70000, Available
+105, Hetauda, South, 15, 80000, Not Available
+107, Nepalgunj, West, 5, 90000, Available
+104, Dhading, East, 7, 20000, Not Available
+109, Kalapani, West, 17, 100000, Available

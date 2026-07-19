@@ -1,0 +1,52 @@
+	TO ADD NEW FOLDERS
+	1. run terminal in vs code where you had wrote codes.
+	2. type ("git init") and press enter.
+	3. In file location you see written ("U") and represented in green color.
+	4. create github account.
+	5. enter create repository to create folder.
+	6. type name and press enter.
+	7. type command lines in terminal of vs code
+		-->  git init     			// it show U letter in every file page
+		-->  git add .    			// it show A letter in every file page
+		-->  git commit -m"first commit"   	//just to commit it
+	
+	8. add your email address according to your github account
+		git config --global user.email "your email address" 	// to know users information
+
+	9. add your username according to your github account
+		git config --global user.email "your username"		// to know users information
+
+	10. again type and run commit command 
+		git commit -m"first commit"
+
+	11. type next command 
+		--> git branch -M main		// to create new branch
+
+	12. type next command
+		--> git remote add origin https://github.com/abinash2055/practice1.git
+
+	13. type next command
+		--> git push -u origin main		// to push the changes to save in github
+
+ 	14 confirmation from github and accept it i.e, login it.
+	15 authorize it .
+
+
+
+
+	TO UPDATE UPLOADED FOLDER
+	1. type belows lines
+		--> git add .
+		--> git commit -m"first commit"
+		--> git push -u origin main
+
+
+
+	FINAL STEP 
+	1. go to setting.
+	2. go to pages.
+	3. go to branch option.
+	4. change empty box to main and wait for few minutes and save it.
+	5. now our file is uploaded as live.
+
+	
